@@ -3,7 +3,7 @@ package com.company;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class SistemaDeProducto {
+public class SistemadeProductos19abril {
     private Scanner StringReciver = new Scanner(System.in);
     private Scanner floatReciver = new Scanner(System.in);
     private ArrayList<producto> productos = new ArrayList<>();

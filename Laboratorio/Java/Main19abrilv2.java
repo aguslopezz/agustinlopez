@@ -1,8 +1,8 @@
 package com.company;
 
-public class Main2 {
+public class Main19abrilv2 {
     public static void main(String[] args) {
-        SistemaDeProducto system= new SistemaDeProducto();
+        SistemadeProductos19abril system= new SistemadeProductos19abril();
         system.iniciarSistema();
     }
 
