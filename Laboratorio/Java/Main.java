@@ -1,18 +1,27 @@
 package com.company;
+import java.util.Scanner;
 
 public class Main {
-
     public static void main(String[] args) {
-        Persona p = new Persona();
-        String n = p.getNombre();
-        System.out.println(n);
-        p.setNombre("Dababy");
-        n = p.getNombre();
-        System.out.println(n);
-        int e = p.getEdad();
-        System.out.println(e);
-        p.setEdad(3);
-        e = p.getEdad();
-        System.out.println(e);
+        Scanner StringReciver = new Scanner(System.in);
+        Scanner floatReciver = new Scanner(System.in);
+        boolean salida = false;
+        float precioTotal = 0;
+        String respuesta;
+
+        while (!salida) {
+            System.out.print("Ingrese el nombre y precio del producto\n");
+            String nombre = StringReciver.nextLine();
+            float precio = floatReciver.nextFloat();
+            Producto prod = new Producto(nombre,precio);
+            precioTotal += precio;
+            System.out.print("el precio a pagar hasta el momento es " + precioTotal + "\ndesea registrar otro producto");
+            respuesta = StringReciver.nextLine();
+
+            if (respuesta.equals("finalizar")) {
+                salida = true;
+            }
+            System.out.print("El total a pagar es " + precioTotal + "\n");
+        }
     }
 }
