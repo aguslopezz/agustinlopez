@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class Main10DeMayoEj1 {
+public class Main12deMayo {
     public static void main(String args[]){
         Scanner ingresoInt = new Scanner(System.in);
         ArrayList<Integer> numIngresados = new ArrayList<>();
