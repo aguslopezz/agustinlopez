@@ -4,21 +4,21 @@ import java.util.ArrayList;
 import java.util.HashSet;
 import java.util.Scanner;
 
-public class Main10DeMayoEj2 {
+public class Main12MayoV2 {
     public static void main(String args[]){
         Scanner ingresoInt = new Scanner(System.in);
         boolean distintos = false;
-        //Array 1
+
         ArrayList<Integer> numIngresados1 = new ArrayList<>();
-        System.out.println("Ingrese la cantidad de numeros a agregar y luego dichos numeros");
+        System.out.println("Ingrese la cantidad de numeros a agregar y agregue los numeros en cuestion");
         int cant1 = ingresoInt.nextInt();
         for(int i=0; cant1 > i; i++ ){
             int numA = ingresoInt.nextInt();
             numIngresados1.add(numA);
         }
-        //Array 2
+
         ArrayList<Integer> numIngresados2 = new ArrayList<>();
-        System.out.println("Ingrese la cantidad de numeros a agregar y luego dichos numeros");
+        System.out.println("Ingrese la cantidad de numeros a agregar y agregue los numeros en cuestion");
         int cant2 = ingresoInt.nextInt();
         for(int i=0; cant2 > i; i++ ){
             int numB = ingresoInt.nextInt();

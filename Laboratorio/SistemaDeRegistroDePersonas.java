@@ -12,11 +12,11 @@ public class SistemaDeRegistroDePersonas {
     public void IniciarRegistro() {
         boolean salir = false;
         while (!salir) {
-            System.out.println("Ingrese la accion que desea llevar a cabo (A, B, M, mayor, lista)");
+            System.out.println("Indique accion a realizar (A, B, M, mayor, lista)");
             String respuesta = getString.nextLine();
             if (respuesta == "A") {
                 Persona nuevaPersona = new Persona();
-                System.out.println("Ingrese la informacion de la nueva persona");
+                System.out.println("Ingrese info de la nueva persona");
 
                 String nuevoNombre = getString.nextLine();
                 int nuevaEdad = getInt.nextInt();
@@ -32,7 +32,7 @@ public class SistemaDeRegistroDePersonas {
 
                 personas.add(nuevaPersona);
             } else if (respuesta == "B") {
-                System.out.println("Ingrese el dni de la persona que desee eliminar");
+                System.out.println("Ingrese dni del individuo a eliminar");
                 objetivo = getString.nextLine();
                 personas.removeIf(dni -> dni.equals(objetivo));
             } else if (respuesta == "M") {

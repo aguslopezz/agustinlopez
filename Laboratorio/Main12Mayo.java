@@ -8,7 +8,7 @@ public class Main12deMayo {
     public static void main(String args[]){
         Scanner ingresoInt = new Scanner(System.in);
         ArrayList<Integer> numIngresados = new ArrayList<>();
-        System.out.println("Ingrese la cantidad de numeros a agregar y luego dichos numeros");
+        System.out.println("Ingrese la cantidad de numeros a agregar y agregue los numeros en cuestion");
         int cant = ingresoInt.nextInt();
         for(int i=0; cant > i; i++ ){
             int numA = ingresoInt.nextInt();

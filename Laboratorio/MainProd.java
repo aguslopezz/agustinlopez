@@ -1,7 +1,7 @@
 package com.company;
 import java.util.Scanner;
 
-public class Main {
+public class MainProd {
     public static void main(String[] args) {
         Scanner StringReciver = new Scanner(System.in);
         Scanner floatReciver = new Scanner(System.in);
