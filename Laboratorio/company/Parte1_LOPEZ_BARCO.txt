@@ -1,0 +1,62 @@
+1.	
+Las clases son plantillas en las cuales se insertan los datos para la creacion de objetos datos.
+
+2.	
+Un objeto es algo que puede existir en la vida real la cual vos podes cambiarle los atributos 
+
+3.	
+Un constructor es un elemento de una clase cuyo identificador coincide con el de la clase correspondiente y que tiene por objetivo obligar y controlar cómo se inicializa una instancia de una determinada clase
+
+4.
+A_
+public Persona(){
+    this.nombre= Agustin;
+    this.dni= 222222222;
+}
+
+B_
+public Persona(String nombre){
+    this.nombre=nombre;
+    this.dni=12345678;
+}
+
+5.	
+Se pueden crear infinitos objetos dentro de una clase
+
+6.	
+son las caracterísiticas individuales que diferencian un objeto de otro y representan su apariencia, estado u otras cualidades.
+
+7.	
+Los metodos son subrutinas(pequeñas fracciones de codigo) que manipulan los datos definidos por la clase y permiten el acceso a esos datos
+
+8.	
+Si, se puede
+
+9
+This es una variable de referencia que se refiere al objeto actual, la cual puede puede usarse para inicializar un constructor.
+
+10.	¿Qué debe suceder para que dos objetos sean considerados iguales?
+Deben tener exactamente los mismos elementos
+
+11.
+El operador "new" permite a los desarrolladores crear una instancia de un tipo de objeto definido por el usuario o de uno de los tipos de objeto integrados que tiene un función constructora
+12.Imprime False
+
+13.	
+es un contenedor de clases que permite agrupar las distintas partes de un programa 
+
+14.	
+para importar las clases declaradas publicas de un paquete completo
+
+15.	
+Se usa para imprimir un mensaje o leer datos que ingresa el usuario
+
+16.	
+ArrayList es una estructura de datos que puede estirarse para acomodar elementos adicionales dentro de sí mismo y reducirse a un tamaño más pequeño cuando se eliminan los elementos
+Una de sus caracterísiticas principales es que puede contener cualquier tipo de dato
+
+17.	
+Es una lista, en la cual no puede aceptar repetidos.
+
+18.	
+Es un diccionario de datos, con dos valores, en el cual el primero es la key.
