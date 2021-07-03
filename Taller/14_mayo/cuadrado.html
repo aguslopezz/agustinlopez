@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="cuadrado.css">
+		<script type="text/javascript" src="cuadrado.js"></script>
+		<title>14.05</title>
+	</head>
+
+	<body>
+
+       <div id="botones1">  
+			<h1 id="letraBotones1">Primer par de botones</h1>
+            <button onclick="moverHaciaDerecha()" id="boton1">Derecha</button>
+            <button onclick="moverHaciaIzquierda()" id="boton2">Izquierda</button>
+        </div>
+
+		<div id="botones2">  
+			<h1 id="letraBotones2">Segundo par de botones</h1>
+            <button onclick="moverHaciaDerecha2()" id="boton3">Derecha</button>
+            <button onclick="moverHaciaIzquierda2()" id="boton4">Izquierda</button>
+        </div>
+
+		<div id="cuadrado" onmouseover="moverHaciaAbajo()" onclick="moverHaciaArriba()">
+            <img id="spike" src="spike.jpg" alt="spike">
+        </div>
+
+		<div id="cuadrado2" onmouseover="moverHaciaAbajo2()" onclick="moverHaciaArriba2()">
+            <img id="yoshi" src="yoshi.jpg" alt="yoshi">
+		</div>
+        
+        
+	</body>
+
+</html>

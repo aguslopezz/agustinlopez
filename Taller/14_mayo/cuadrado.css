@@ -1,0 +1,78 @@
+body {
+	background-image: url("rick.png");
+}
+
+#cuadrado {
+	width: 1cm;
+	height: 1cm;
+	margin-left: 1cm;
+	position: absolute;
+	background-color: cyan;
+}
+
+#circulo{
+	width: 1cm;
+	height: 1cm;
+	margin-left: 15cm;
+	position: absolute;
+	background-color: blueviolet;
+	border-radius: 50px;
+}
+
+#cuadrado2{
+	width: 1cm;
+	height: 1cm;
+	margin-left: 40cm;
+
+}
+
+#botones1{
+    width: 5cm;
+	height: 1cm;
+    margin-top: 0%;
+}
+
+#botones2{
+	text-align: right;
+}
+
+#letraBotones1{
+	font-style: normal;
+	color: white;
+	text-align: left;
+}
+
+#letraBotones2{
+	font-style: normal;
+	color: white;
+	text-align: right;
+}
+
+#boton1{
+color: blue;
+}
+
+#boton2{
+color: darkgoldenrod;
+}
+
+#boton3{
+ color: red;
+}
+
+#boton4{
+color: violet;
+}
+
+#spike{
+    width: 1cm;
+	height: 1cm;
+	margin-left: 0cm;
+}
+
+#yoshi{
+	width: 1cm;
+	height: 1cm;
+}
+
+
