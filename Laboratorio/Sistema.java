@@ -1,3 +1,4 @@
+
 package com.company;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -32,9 +33,9 @@ public class Sistema{
         pasajerosPresentes.remove(pasajero);
     }
 
-    public HashSet<Pasajero> pasajerosQueSeHanSubidoAlgunaVez(ArrayList<Pasajero> historialDePasajeros){
+    public HashSet<Pasajero> pasajerosQueSeHanSubidoAlgunaVez(){
         HashSet<Pasajero> pasajerosHist = new HashSet<>();
-        for (Pasajero pasajero : historialDePasajeros) {
+        for (Pasajero pasajero : this.historialDePasajeros) {
             pasajerosHist.add(pasajero);
         }
         return pasajerosHist;
@@ -45,4 +46,6 @@ public class Sistema{
 
 
 
+
 }
+
