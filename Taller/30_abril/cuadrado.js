@@ -22,7 +22,7 @@ function moverHaciaAbajo() {
 }
 
 function moverHaciaArriba() {
-    let cuadrado= document.getElementById("cuadrado");
+    let cuadrado = document.getElementById("cuadrado");
     let nuevoValorDeMargenTop = parseInt(margen.charAt(0)) - 1;
     margen = nuevoValorDeMargenTop + "cm";
     cuadrado.style.marginTop = margen;

@@ -1,14 +1,14 @@
 package com.company;
 
 public class Viaje {
-    float precio;
+    static float precio;
     String fecha;
     String hora;
 
-    public Viaje(float precio, String fecha, String hora){
-        this.precio = precio;
-        this.fecha = fecha;
-        this.hora = hora;
-
+    public Viaje(){
+        precio = 20f;
+        fecha = "20 de abril";
+        hora = "20:30";
     }
+
 }

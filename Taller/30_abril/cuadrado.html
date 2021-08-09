@@ -1,25 +1,111 @@
-<!DOCTYPE html>
-<html lang="en">
+
+<!DOCTYPE html><html>
 
 	<head>
-		<meta charset="UTF-8">
-		<link rel="stylesheet" href="cuadrado.css">
-		<script type="text/javascript" src="cuadrado.js"></script>
-		<title>30_abril</title>
+	
+	
+	<meta http-equiv="Content-Language" content="es-ar">
+	<title>..::INSIGNIA::..</title>
+	<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0;" />
+	<link rel="shortcut icon" href="insignia.ico">
+	<link rel="stylesheet" media="all" href="main_style.css" >
+	<link href="https://fonts.googleapis.com/css?family=Dosis:200|Raleway:100,400" rel="stylesheet">
+	
+	<script	language='javascript'>
+		function login004_01() {
+			var	form = document.loginBox;
+			form.method	= "post"; 
+			form.target = "_self";
+			form.action = "pad046.asp";
+			form.submit();
+		}
+	</script>
+	
+	<script	language='javascript'>
+		function vImprimir(vIDAlumno,vTrimestre) {
+			var	form = document.loginBox;
+			form.method	= "post"; 
+			form.target = "_self";
+			form.action = "pad046_2.asp?vIDAlumno="+vIDAlumno+"&vTrim="+vTrimestre;
+			form.submit();
+		}
+	</script>
+	
+	<script	language='javascript'>
+		function vTomoConoc() {
+			var	form = document.loginBox;
+			form.method	= "post"; 
+			form.target = "_self";
+			form.action = "pad046_1.asp";
+			form.submit();
+		}
+	</script>
+	
+	
+	
 	</head>
-
-	<body>
-
-        <div id="botones">
-            <button onclick="moverHaciaDerecha()" id="boton1">Derecha</button>
-            <button onclick="moverHaciaIzquierda()" id="boton2">Izquierda</button>
-        </div>
-
-		<div onmouseover="moverHaciaAbajo()" onclick="moverHaciaArriba()" id="cuadrado">
-            <img id="yoshi" src="yoshi.jpg" alt="yoshi">
-        </div>
-        
-        
+	
+	<body STYLE="background-color: transparent" topmargin="1" leftmargin="1" rightmargin="1" bottommargin="1">
+	
+	<form NAME="loginBox">
+	<input type=hidden name="vIDUser" value="4386">
+	<input type=hidden name="vIDAlumno" value="3796">
+	<input type=hidden name="vAluSel" value="3796">
+	<input type=hidden name="vPoA" value="P">
+	
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" height="85">
+		<tr>
+			<td width="48"><p align="right">
+			</td>
+			<td background="logo02b.png" valign=top align="right">
+				<div id="layerMenu2" style="overflow-y: hidden; overflow-x: auto; width: 100%; height:100px;z-index:10;">
+					<table border="0" id="table1" cellspacing="2" cellpadding="2">
+						<tr>
+							<td valign=bottom>
+								<p align="center" style="margin-top: 2; margin-bottom: 0; margin-left:5; margin-right:5;">
+								<select size="1" name="vTrim" style="font-family: Trebuchet MS; font-size: 9pt; color: #800000; width:150px; " >
+									<option selected value="1">1er CUATRIMESTRE</option>
+								</select><font face="Trebuchet MS" style="font-size: 10pt; font-weight: 700">&nbsp;2021</font></td>
+							<td valign=bottom><p align="center" style="margin-top: 0; margin-bottom: 0; margin-left:5; margin-right:5;"><font face="Trebuchet MS" style="font-size: 8pt; font-weight: 700"><a href="javascript:vImprimir('3796','1');"><img width="48" height="48" id="btnImpreSI" src="btn_imprimir.png" border="0"></a><img width="0" height="48" id="btnImpreNO" src="btn_imprimir.png" border="0"></font></p></td>
+						</tr>
+						<tr>
+							<td height="10px" bgcolor="#000000"><p align="center" style="margin-top: 0; margin-bottom: 0; margin-left:5; margin-right:5;"><font face="Trebuchet MS"><span style="font-size: 8pt; color: #FFFFFF">PARÁMETROS</span></font></td>
+							<td height="10px" colspan="1" bgcolor="#000000"><p align="center" style="margin-top: 0; margin-bottom: 0; margin-left:5; margin-right:5;"><font face="Trebuchet MS" style="font-size: 8pt" color="#FFFFFF">IMPRIMIR</font></td>
+						</tr>
+					</table>
+				</div>
+			</td>
+		</tr>
+	</table>
+	<div  id="layerBarra" style="overflow-y: hidden; overflow-x: hidden; width: 100%; height:45px;z-index:5;position: absolute; left: 0; top: 85px; background:url(btn20_0024.png) no-repeat;">
+	<table border="0" width="100%" cellspacing="0" cellpadding="0" height="45" background="but05-40b.png" >
+		<tr>
+			<td height="45" valign=center>
+			<p align="right" style="margin-right: 58px; margin-top:0; margin-bottom:0"><font  style="font-size: 11pt">INFORME CUATRIMESTRAL</font></td>
+		</tr>
+	</Table>
+	</div>
+	<img border="0" src="btn90_001.png" width="40" height="40" style="position: absolute; top: 88px; right: 2px; z-index:10;"></a>
+	
+	<table border="0" width="100%" cellspacing="0" cellpadding="0">
+		<tr>
+			<td height="25">&nbsp;</td>
+		</tr>
+		
+			<script>
+				window.loginBox.btnImpreSI.style.width = "0";
+				window.loginBox.btnImpreNO.style.width = "48px";
+			</script>
+			<p align="center"><font face="Trebuchet MS" style="font-size: 11pt">&nbsp;</font></p>
+			<p align="center"><font face="Trebuchet MS" style="font-size: 11pt">EL INFORME NO SE ENCUENTRA DISPONIBLE</font></p>
+			
+		<input type=hidden name="vAnoActual" value="2021">
+		
+		<tr>
+			<td style="border-top: 3px solid #7AAFE0; "><p style="margin: 2px"><font face="Arial" style="font-size: 10pt">&nbsp;</font></td>
+		</tr>
+	</table>
+	</form>
 	</body>
-
-</html>
+	
+	</html>
