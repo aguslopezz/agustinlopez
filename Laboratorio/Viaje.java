@@ -7,8 +7,12 @@ public class Viaje {
 
     public Viaje(){
         precio = 20f;
-        fecha = "20 de abril";
+        fecha = "10/08/21";
         hora = "20:30";
+    }
+
+    public static float getPrecio(){
+        return precio;
     }
 
 }

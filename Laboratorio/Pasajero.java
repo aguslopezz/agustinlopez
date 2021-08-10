@@ -1,14 +1,15 @@
 package com.company;
 
-public class Pasajero extends tarjetaEquis{
+public class Pasajero extends tarjetaEquis {
     public String nombre;
     public String apellido;
+    public tarjetaEquis tarjeta;
 
 
-    public Pasajero(){
+    public Pasajero(String nombre, String apellido){
         super();
-        nombre = "Agustin";
-        apellido = "Lopez";
+        this.nombre = nombre;
+        this.apellido = apellido;
 
     }
 
@@ -19,4 +20,3 @@ public class Pasajero extends tarjetaEquis{
 
 
 }
-

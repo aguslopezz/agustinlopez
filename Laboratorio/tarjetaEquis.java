@@ -4,17 +4,20 @@ import java.util.ArrayList;
 public class tarjetaEquis {
     public float saldo;
     public float saldoNegativoMaximo;
-    public int numeroId;
+    public float numeroId;
     public ArrayList<Viaje> Viajes;
 
+
     public tarjetaEquis(){
-        saldo = 74.4f;
-        saldoNegativoMaximo = 60f;
-        numeroId = 123456;
+        this.saldo = 100f;
+        this.saldoNegativoMaximo = (-60f);
+        this.numeroId = 12;
         Viajes = new ArrayList<>();
     }
 
-    public float get(){
+
+
+    public float getSaldo(){
 
         return saldo;
     }
@@ -28,9 +31,19 @@ public class tarjetaEquis {
         Viajes.add(Viaje);
     }
 
-    public void ultimoMontoAbonado(){
+    public tarjetaEquis ultimoMontoAbonado(){
         Viajes.get(Viajes.size()-1);
 
+         return null;
+    }
+
+
+    float getNumeroId() {
+        return numeroId;
+    }
+
+    float getSaldoNegativoMaximo(){
+        return saldoNegativoMaximo;
     }
 
 
