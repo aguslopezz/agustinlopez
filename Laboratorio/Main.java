@@ -1,13 +1,39 @@
 package com.company;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+
 public class Main {
 
     public static void main(String[] args) {
-        Persona p1= new Persona();
-        Persona p2= new Persona("Roberto");
-        Persona p3= new Persona("Dababy",29, 41267832, 1134789023,"Pampa 2345");
-        p1.setEdad(p1.getEdad() * 2);
-        p2.setTelefono(1111112345);
-        System.out.print(p3.getNombre()+"\n"+p3.getEdad()+"\n"+p3.getDni()+"\n"+p3.getTelefono()+"\n"+p3.getDireccion());
+        ArrayList<Persona>personas = new ArrayList<>();
+        Persona p1 = new Persona();
+        Persona p2 = new Persona();
+        Persona p3 = new Persona();
+
+        p2.setApellido("Lopez");
+        p3.setApellido("Marcos");
+
+        p2.setEdad(16);
+        p2.setDni(45671234);
+        p3.setEdad(15);
+        p3.setDni(45623456);
+
+        personas.add(p1);
+        personas.add(p2);
+        personas.add(p3);
+
+        HashSet<String>apellidos = new HashSet<>();
+        HashMap<Integer,Integer>pers = new HashMap<>();
+
+        for(Persona a : personas){
+            apellidos.add(a.getApellido());
+            pers.put(a.getDni(), a.getEdad());
+        }
+
+        for(Integer a : pers.keySet()){
+            System.out.println(a);
+        }
     }
 }
