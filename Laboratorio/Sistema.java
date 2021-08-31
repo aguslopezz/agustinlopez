@@ -1,3 +1,4 @@
+
 package com.company;
 import java.util.ArrayList;
 import java.util.HashMap;
@@ -33,6 +34,8 @@ public class Sistema {
     }
 
     public HashSet<Pasajero> pasajerosQueSeHanSubidoAlgunaVez() {
+
+    public HashSet<Pasajero> pasajerosQueSeHanSubidoAlgunaVez(){
         HashSet<Pasajero> pasajerosHist = new HashSet<>();
         for (Pasajero pasajero : this.historialDePasajeros) {
             pasajerosHist.add(pasajero);
@@ -57,6 +60,7 @@ public class Sistema {
     }
 
 
+
     boolean seSuperaElSaldoNegativo(Pasajero pasajero, tarjetaEquis tarjeta) {
         if(tarjeta.getSaldo()- Viaje.getPrecio() < tarjeta.getSaldoNegativoMaximo()){
             return true;
@@ -64,3 +68,10 @@ public class Sistema {
     else return false;
     }
 }
+
+
+
+
+}
+
+
